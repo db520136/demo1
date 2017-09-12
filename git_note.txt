@@ -1,0 +1,13 @@
+$ git config --global user.name "Your Name"
+$ git config --global user.email "email@example.com"
+git刚安装好进入，需要对名字和邮箱进行初始化
+
+$ git config --list
+查看git配置列表，当中就可以看到名字和邮箱
+
+
+
+$ git init  #把当前目录变成了yige仓库（创建仓库）
+提示：Initialized empty Git repository in F:/git_repository/repository1/.git/
+empty Git repository ---->正常情况下，仓库建好会告诉你这是一个空仓库
+.git ---> 自动生成隐藏文件.git
