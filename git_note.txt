@@ -1,4 +1,4 @@
-$ git config --global user.name "Your Name"
+﻿$ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
 git刚安装好进入，需要对名字和邮箱进行初始化
 
@@ -20,5 +20,11 @@ git reset --hard HEAD~n #返回上n个版本
 版本恢复和跳转
 
 
+ssh-keygen -t rsa -C "youremail@example.com" # 换成自己的邮箱地址
+然后一路回车就能创建SSH Key了 （密码就为空）
+主目录 下若是没有.ssh目录表示没有，可以创建！
+创建好，自动会在主目录下生成.ssh目录  目录会有 id_rsa和id_rsa.pub两个文件
+
+aaa
 
 https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013743256916071d599b3aed534aaab22a0db6c4e07fd0000
