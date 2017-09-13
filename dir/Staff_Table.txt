@@ -1,0 +1,24 @@
+'''
+函数作用:新员工入职 更新信息表
+'''
+def Table_Add_Staff_Msg():
+	pass
+	
+'''
+函数作用：员工离职，更新信息表
+'''
+def Table_Delete_Staff_Msg():
+	pass
+	
+
+'''
+函数作用：修改员工信息，更新信息表
+'''
+def Table_Change_Staff_Msg():
+	pass
+
+'''
+函数作用：查找列表中员工信息
+'''
+def Table_Seek_Staff_Msg():
+	pass
