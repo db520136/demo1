@@ -49,14 +49,11 @@ $git commit -m '备注'
 若在dev分支上改后，回到master分支，master分支又改过！
 	若是要dev分支合并到master分支，会出现冲突
 	需要手动解决
+
 	
-解决冲突-----branch1
+问题以及解决方案。
+you need to resolve your current index first。因为产生了冲突。故需要回退到合并前。
+解决方案如下：
+git reset --merge  #回归到合并前的版本
 
-解决冲突-------master分支
-<<<<<<< HEAD
-master----------------------------
-=======
-
-devvvvvvvvvvvvvvvvvvvvvvv
->>>>>>> dev
 https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013743256916071d599b3aed534aaab22a0db6c4e07fd0000
