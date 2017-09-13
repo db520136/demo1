@@ -25,6 +25,25 @@ ssh-keygen -t rsa -C "youremail@example.com" # 换成自己的邮箱地址
 主目录 下若是没有.ssh目录表示没有，可以创建！
 创建好，自动会在主目录下生成.ssh目录  目录会有 id_rsa和id_rsa.pub两个文件
 
-aaa
+
+
+查看分支：git branch
+
+创建分支：git branch <name>
+
+切换分支：git checkout <name>
+
+创建+切换分支：git checkout -b <name>
+
+修改文件后，还是要在当前分支下，正常提交文件
+$git add xxx
+$git commit -m '备注'
+
+上述提交后，切换回master分支，这时候去看文件内容还是原来没修改的内容
+需要把原提交的分支合并到当前分支才能看到修改后的内容
+
+合并某分支到当前分支：git merge <name>
+
+删除分支：git branch -d <name>
 
 https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013743256916071d599b3aed534aaab22a0db6c4e07fd0000
